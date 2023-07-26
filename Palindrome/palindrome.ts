@@ -1,4 +1,4 @@
-function isPalindrome(x: number): boolean {
+function itisPalindrome(x: number): boolean {
     if (x < 0) {
         return false;
     }
