@@ -1,6 +1,8 @@
 def pow(self, x, n):
     if n == 0:
         return 1
+    if n == 1:
+        return x
     if n > 1:
         return self.P(x,n)
     if n<0:
